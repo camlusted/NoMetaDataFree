@@ -664,6 +664,52 @@ function App() {
                 </div>
               </div>
             </div>
+
+            <div className="panel panelSpacer">
+              <div className="panelHeader">
+                <h2 className="panelTitle">Privacy, Terms & Contact</h2>
+                <span className="muted">Basic pages for transparency (helpful for ad approval)</span>
+              </div>
+
+              <div className="details">
+                <details open>
+                  <summary>Privacy Policy</summary>
+                  <div className="muted mt10">
+                    This app is designed for privacy. Image processing runs locally in your browser (client-side) and your files are
+                    not uploaded by default. We don’t add analytics or tracking.
+                  </div>
+                  <div className="muted mt10">
+                    If you later add ads (e.g. Google AdSense), those services may set cookies or collect limited device data.
+                    If/when you enable ads, update this page to reflect the ad provider’s policies.
+                  </div>
+                </details>
+              </div>
+
+              <div className="details">
+                <details>
+                  <summary>Terms</summary>
+                  <div className="muted mt10">
+                    This tool is provided “as is” without warranty. Always verify your exported images before sharing. Some platforms
+                    may add their own metadata on upload.
+                  </div>
+                  <div className="muted mt10">
+                    You are responsible for how you use the output files and for complying with laws and platform rules.
+                  </div>
+                </details>
+              </div>
+
+              <div className="details">
+                <details>
+                  <summary>Contact</summary>
+                  <div className="muted mt10">
+                    For support or partnership enquiries, open an issue on GitHub:
+                    <a className="muted" href="https://github.com/camlusted/NoMetaDataFree/issues" target="_blank" rel="noreferrer">
+                      https://github.com/camlusted/NoMetaDataFree/issues
+                    </a>
+                  </div>
+                </details>
+              </div>
+            </div>
           </div>
         </main>
 
